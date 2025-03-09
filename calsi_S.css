@@ -29,6 +29,10 @@ p{
     text-align: right;
     padding-right: 10px;
     padding-top: 20px;
+    overflow-x: scroll;
+}
+::-webkit-scrollbar{
+    display: none;
 }
 button{
     height: 60px;
@@ -43,4 +47,9 @@ button{
 button:hover{
     font-size: xxx-large;
     background-color: rgb(198, 157, 80);
+}
+#astrick{
+    float: left;
+    padding: 7px;
+    font-size: 70px;
 }
